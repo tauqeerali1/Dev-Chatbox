@@ -1,0 +1,390 @@
+body{ 
+	background-image: url("pic03.jpg");
+    background-repeat: no-repeat;
+	background-size: 1950px 1260px;
+}
+.container {
+	display: inline-flex;
+	position: absolute;
+	left:1050px;
+	top: 15px;
+	font-size: 15px;
+}
+.container a{
+	text-decoration: none;
+	color: #000;
+	display:block;
+	padding: 17px 27px;
+	background-color: rgb(230,230,250);
+}
+a:hover{
+	color: 	#008080;
+	background-color: rgb(255,250,250);
+}
+.Home {
+	width: 109px;
+}
+.Whats {
+	display: none;
+	position: absolute;
+}
+.WhatNew {
+	width: 183px;
+}
+.WhatNew:hover .Whats {
+	display: block;
+	color: #fff;
+}
+.Features{
+	display: none;
+	position: absolute;
+}
+.Feature {
+	width: 266px;
+}
+.Feature:hover .Features{
+	display:block;
+	color: #fff;
+}
+.contacts {
+  display: none;
+  position:absolute;
+}
+.contacts {
+	width: 155px;
+}
+.contacts {
+}
+.contact:hover .contacts {
+  display:block;
+	color: #fff;
+}
+.abouts {
+	display: none;
+	position: absolute;
+}
+.about {
+	width: 138px;
+}
+.about:hover .abouts {
+  display:block;
+	color: #fff;
+}
+.logo img{
+	float: left;
+	width:200px;
+	height: auto;
+	margin-top: 15px;
+	margin-left: 40px;
+}
+.khan img{
+	float: center;
+	width: 100px;
+	margin-left: 5%;
+}
+.main{
+	margin: auto;
+}
+button{
+	cursor:pointer;
+	background-color:#fff;
+}
+.center img{
+	width:300px;
+	margin-top: 7%;
+	margin-left: 58.5%;
+}
+
+.write b{
+	margin-left: 72%;
+	font-size: 15px;
+	color:#000;
+}
+.line img{
+	position: absolute;
+	width: 26%;
+	top: 47%;
+	left: 82%;
+	transform: translate(-50%,-50%);
+	z-index: -1;
+}
+.line2 img{
+	position: absolute;
+	width: 14%;
+	top: 34%;
+	left: 64%;
+	transform: translate(-50%,-50%);
+	transform: rotate(90deg);
+	z-index: -1;
+}
+.btn{
+	border: 1px solid #fff; border-radius: 1px;
+  background-color: #f4511e;
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+ 	padding: 0.5em 1em;
+ 	width: 160px;
+ 	transition: all 0.5s;
+ 	cursor: pointer;
+ 	margin: 5px;
+	position: absolute;
+	top:55.4%;
+	left: 71.6%;
+}
+.btn span{
+	cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+.btn span:after{
+	content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  right: -30px;
+  transition: 0.3s;
+  color: #fff;
+}
+.btn:hover span{
+	padding-right: 25px;
+	transition: 0.3s;
+}
+.btn:hover span:after{
+ 	opacity: 0.9;
+  right: 2;
+}
+.btn:active {
+  transform: translateY(10px);
+}
+.btn:hover {
+	background-color: rgb(255,69,0);
+	color: #fff;
+}
+.btn1 {
+	text-decoration: none;
+	border: 1px solid #fff;
+	padding: 10px 35px;
+ 	font-size: 20px;
+ 	text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background-color: #4CAF50;
+  box-shadow: 0 3px #999;
+	position: absolute;
+	top:55.9%;
+	left: 84%;	
+}
+.btn1:hover {
+	background-color: #3e8e41;
+	color:#fff;
+}
+.btn1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transition: 0.3s;
+  transform: translateY(10px);
+}
+.ali{
+	position: absolute;
+	width: 100%;
+	height: 38%;
+	top: 154%;
+	background-color:#DCDCDC;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.twitter img{
+	position: absolute;
+	top: 1455px;
+	left:44%;
+	width: 60px;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+}
+.facebook img{
+	position: absolute;
+	top: 1455px;
+	left:47%;
+	width: 17px;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+}
+.linkedin img{
+	position: absolute;
+	top: 1455px;
+	left:50%;
+	width: 75px;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+}
+.instagram img{
+	position: absolute;
+	top: 1455px;
+	left:53%;
+	width: 35px;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+}
+.github img{
+	position: absolute;
+	top: 1455px;
+	left:56%;
+	width: 55px;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+}
+.allrightreserved p{
+	color: 	#696969;
+	font-family:Arial, Helvetica, sans-serif;
+	position: absolute;
+	font-size: 14px;
+	top: 1565px;
+	left:50.4%;
+	transform: translate(-50%,-50%);
+}
+.makeline {
+	position: absolute;
+	top: 1350px;
+	right: 715px;
+	width: 25%;
+}
+hr{
+	color: #D3D3D3;
+}
+.makeline2 {
+	width: 25%;
+	right: 715px;
+	position: absolute;
+	top: 1537px;
+}
+hr{
+	color: #D3D3D3;
+}
+.makeline3 {
+	position: absolute;
+	top: 1487px;
+	width: 25%;
+	right: 715px;
+}
+hr{
+	color: #D3D3D3;
+}
+.terms a{
+	position: absolute;
+	top: 1520px;
+	right: 980px;
+	transform: translate(-50%,-50%);
+	color:#696969;
+	padding: none;
+	text-decoration: none;
+	font-size: 13px;
+}
+.terms1 a{
+	position: absolute;
+	top: 1520px;
+	right: 880px;
+	transform: translate(-50%,-50%);
+	color:#696969;
+	padding: none;
+	text-decoration: none;
+	font-size: 13px;
+}
+.terms2 a{
+	position: absolute;
+	top: 1520px;
+	right: 785px;
+	transform: translate(-50%,-50%);
+	color:#696969;
+	padding: none;
+	text-decoration: none;
+	font-size: 13px;
+}
+.terms3 a{
+	position: absolute;
+	top: 1520px;
+	right: 730px;
+	transform: translate(-50%,-50%);
+	color:#696969;
+	padding: none;
+	text-decoration: none;
+	font-size: 13px;
+}
+.bottomcenter img{
+	position: absolute;
+	top: 1305px;
+	left: 950px;
+	width: 300px;
+	transform: translate(-50%,-50%);
+	z-index: 1;
+}
+.followus {
+	position: absolute;
+	top: 1400px;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color:#696969;
+}
+.What{
+	font-size: 15px;
+	position: absolute;
+	top: 1300px;
+	left: 10%;
+	transform: translate(-50%,-50%);
+	color:#696969;
+}
+.new{
+	font-size: 13px;
+	position: absolute;
+	top: 1440px;
+	left: 10%;
+	transform: translate(-50%,-50%);
+	color:#696969;
+}
+.wiki{
+	font-size: 12px;
+	position: absolute;
+	top: 1430px;
+	left: 82%;
+	transform: translate(-50%,-50%);
+	color:#696969;
+}
+.aboutwiki{
+	font-size: 15px;
+	position: absolute;
+	top: 1300px;
+	left: 74.3%;
+	transform: translate(-50%,-50%);
+	color:#696969;
+}
+.feature{
+	font-size: 15px;
+	position: absolute;
+	top: 1300px;
+	left: 21.5%;
+	transform: translate(-50%,-50%);
+	color:#696969;
+}
+.features{
+	font-size: 13px;
+	position: absolute;
+	top: 1440px;
+	left: 24%;
+	transform: translate(-50%,-50%);
+	color:#696969;
+}
+.contactus{
+	font-size: 13px;
+	position: absolute;
+	top: 1570px;
+	left: 75.3%;
+	transform: translate(-50%,-50%);
+	color:#696969;
+}
+.gmail{
+	font-size: 13px;
+	position: absolute;
+	top: 1570px;
+	left: 83.6%;
+	transform: translate(-50%,-50%);
+	color:#696969;
+}
