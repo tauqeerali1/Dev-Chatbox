@@ -153,7 +153,7 @@
 					<div class="fulllist">
 						<div class="list">
 							<a>
-								<?php $conn=mysqli_connect('localhost', 'root', '9636463361', 'userregistration');
+								<?php $conn=mysqli_connect('', '', '', '');
 								$sql = "SELECT User FROM userregistration";
 								$result = $conn->query($sql);
 
