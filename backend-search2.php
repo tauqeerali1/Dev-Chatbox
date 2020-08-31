@@ -1,6 +1,6 @@
 <?php
 $hello = $_POST['term'];
-$conn = mysqli_connect("","t","","");
+$conn = mysqli_connect("","","","");
 $sql = "SELECT User from userregistration WHERE User LIKE '".$hello."%'";
 $result = mysqli_query($conn, $sql);
 $rows = array();
