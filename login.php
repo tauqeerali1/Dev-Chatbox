@@ -137,7 +137,7 @@
 					<div class="fulllist">
 					<div class="fullsearch">
 						<div class="search-box">
-        					<input id="search-box1" type="text" autocomplete="on" placeholder="Search user name..." />
+        					<input id="search-box1" type="text" autocomplete="off" placeholder="Search user name..." />
         					<div class="result">
     	   					</div>
     					</div>
