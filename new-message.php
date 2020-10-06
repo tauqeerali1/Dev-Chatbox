@@ -9,7 +9,7 @@
 			<button onclick="document.getElementById('new-message').style.display='none'"> Cancel</button>
 		</form>
 	</p>
-	<p class="m-footer">Click send to send</p>
+	<p class="m-footer">Click Send to send</p>
 </div>
 
 <?php
