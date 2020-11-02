@@ -2,7 +2,7 @@
 session_start();
 $con=mysqli_connect('', '', '', '');
 if($con){
-	echo "successful connection";
+	echo "connected";
 }else{
 	echo "no connection";
 }
